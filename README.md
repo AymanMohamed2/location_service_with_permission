@@ -25,7 +25,7 @@ dependencies:
 ```
 ## Maintainers
 
-- [Ayman Mohamed]
+- [Ayman Mohamed] (original creator)
 - [Abdelrahman Mostafa]
 
 [Ayman Mohamed]: https://github.com/AymanMohamed2
