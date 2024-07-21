@@ -21,3 +21,8 @@ This repository provides a comprehensive solution for managing location in your 
 ```yaml
 dependencies:
   location_service: ^1.0.0 (or latest version)
+
+**Changes made:**
+
+* Added a `Maintainers` section.
+* Made the maintainer names clickable links using Markdown syntax: `[Ayman Mohamed](https://github.com/AymanMohamed2?tab=repositories)`. You'll need to replace the URLs with the actual GitHub profiles of the maintainers.
