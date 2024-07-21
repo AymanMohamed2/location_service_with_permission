@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "location_service",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "location_service (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "location_service (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "location_service_test",
+            "cwd": "location_service_test",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "location_service_test (profile mode)",
+            "cwd": "location_service_test",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "location_service_test (release mode)",
+            "cwd": "location_service_test",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
