@@ -13,10 +13,6 @@ This repository provides a comprehensive solution for managing location in your 
 * **User-Friendly Permission Flow:** Guides users through permission requests gracefully.
 * **Robust Error Handling:** Catches and reports location service and permission issues.
 * **Well-Documented:** Provides clear documentation and code examples.
-**Changes made:**
-
-* Added a `Maintainers` section.
-* Made the maintainer names clickable links using Markdown syntax: `[Ayman Mohamed](https://github.com/AymanMohamed2?tab=repositories)`. You'll need to replace the URLs with the actual GitHub profiles of the maintainers.
 
 ### Installation
 
