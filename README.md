@@ -25,8 +25,8 @@ dependencies:
 ```
 ## Maintainers
 
-- [Guillaume Bernos] (original creator)
-- [Bartek Pacia]
+- [Ayman Mohamed]
+- [Abdelrahman Mostafa]
 
-[Guillaume Bernos]: https://github.com/Lyokone
-[Bartek Pacia]: https://github.com/bartekpacia
+[Ayman Mohamed]: https://github.com/AymanMohamed2
+[Abdelrahman Mostafa]: https://github.com/Abd0-M0stafa
