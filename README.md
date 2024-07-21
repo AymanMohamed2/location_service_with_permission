@@ -22,3 +22,11 @@ This repository provides a comprehensive solution for managing location in your 
 dependencies:
   location_service: ^1.0.0 (or latest version)
 
+```
+## Maintainers
+
+- [Guillaume Bernos] (original creator)
+- [Bartek Pacia]
+
+[Guillaume Bernos]: https://github.com/Lyokone
+[Bartek Pacia]: https://github.com/bartekpacia
