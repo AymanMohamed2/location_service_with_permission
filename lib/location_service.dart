@@ -8,7 +8,7 @@ import 'package:permission_handler/permission_handler.dart'
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LocationService {
-  Location _location = Location();
+  final Location _location = Location();
 
   Future<void> _checkAndRequestLocationService() async {
     var isServiceEnabled = await _location.serviceEnabled();
