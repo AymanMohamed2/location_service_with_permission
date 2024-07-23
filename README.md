@@ -39,6 +39,20 @@ UIBackgroundModes = [
 ]
 
 The package will request the appropriate permission (either NSLocationWhenInUseUsageDescription or NSLocationAlwaysAndWhenInUseUsageDescription) based on your usage scenario.
+```plist
+// This is probably the only one you need. Background location is supported
+// by this -- the caveat is that a blue badge is shown in the status bar
+// when the app is using location service while in the background.
+NSLocationWhenInUseUsageDescription
+
+// Deprecated, use NSLocationAlwaysAndWhenInUseUsageDescription instead.
+NSLocationAlwaysUsageDescription
+
+// Use this very carefully. This key is required only if your iOS app
+// uses APIs that access the user’s location information at all times,
+// even if the app isn't running.
+NSLocationAlwaysAndWhenInUseUsageDescription
+```
 
 ## Maintainers
 
