@@ -13,6 +13,19 @@ dependencies:
   location_service_with_permission: ^version_number
 ```
 
+Markdown
+## Android
+
+**Using Location Background Mode and Permissions**
+
+... (content specific to Android)
+
+## iOS
+
+**Using Location Background Mode and Permissions**
+
+... (content specific to iOS)
+
 - [Ayman Mohamed] (original creator)
 - [Abdelrahman Mostafa]
 
