@@ -21,6 +21,10 @@ Markdown
 Using Location Background Mode and Permissions
 
 To use location background mode on Android, you need to enable it using the LocationService.enableBackgroundMode(true) API before accessing location in the background. The package will request the necessary permissions (android.permission.FOREGROUND_SERVICE and android.permission.ACCESS_BACKGROUND_LOCATION) during initialization.
+```xml
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+<uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+```
 
 ## iOS
 
