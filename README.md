@@ -18,13 +18,23 @@ Markdown
 
 **Using Location Background Mode and Permissions**
 
-... (content specific to Android)
+Using Location Background Mode and Permissions
+
+To use location background mode on Android, you need to enable it using the LocationService.enableBackgroundMode(true) API before accessing location in the background. The package will request the necessary permissions (android.permission.FOREGROUND_SERVICE and android.permission.ACCESS_BACKGROUND_LOCATION) during initialization.
 
 ## iOS
 
 **Using Location Background Mode and Permissions**
 
-... (content specific to iOS)
+Using Location Background Mode and Permissions
+
+To receive location updates when the app is in the background on iOS, add the following key-value pair to your Info.plist file:
+
+UIBackgroundModes = [
+  location
+]
+
+The package will request the appropriate permission (either NSLocationWhenInUseUsageDescription or NSLocationAlwaysAndWhenInUseUsageDescription) based on your usage scenario.
 
 ## Maintainers
 
