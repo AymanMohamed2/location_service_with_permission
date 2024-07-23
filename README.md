@@ -10,15 +10,13 @@ This package simplifies location tracking by automating permission requests and 
 
 ```yaml
 dependencies:
-  location_service_with_permission: ^version_number
+  location_service_with_permission: ^0.0.2 (or latest version)
 ```
 
 Markdown
 ## Android
 
 **Using Location Background Mode and Permissions**
-
-Using Location Background Mode and Permissions
 
 To use location background mode on Android, you need to enable it using the LocationService.enableBackgroundMode(true) API before accessing location in the background. The package will request the necessary permissions (android.permission.FOREGROUND_SERVICE and android.permission.ACCESS_BACKGROUND_LOCATION) during initialization.
 ```xml
