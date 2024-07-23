@@ -1,6 +1,7 @@
 library location_service;
 
 import 'package:location/location.dart';
+import 'package:location_service_with_permission/LocationInfo.dart';
 import 'package:location_service_with_permission/exeptions.dart';
 import 'package:permission_handler/permission_handler.dart'
     hide PermissionStatus;
@@ -49,15 +50,18 @@ class LocationService {
   }
 
   Future<void> getRealTimeLocationData(
-      void Function(LocationData)? onData) async {
+      void Function(LocationInfo)? onData) async {
     await _checkAndRequestLocationService();
     await _checkAndRequestLocationPermission();
-    _location.onLocationChanged.listen(onData);
+    _location.onLocationChanged.listen((locationData) {
+      onData!(LocationInfo.fromLocationData(locationData));
+    });
   }
 
-  Future<LocationData> getLocationData() async {
+  Future<LocationInfo> getLocationData() async {
     await _checkAndRequestLocationService();
     await _checkAndRequestLocationPermission();
-    return await _location.getLocation();
+    LocationData result = await _location.getLocation();
+    return LocationInfo.fromLocationData(result);
   }
 }

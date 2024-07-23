@@ -1,7 +1,7 @@
 name: location_service_with_permission
 description: "Effortless Location Handling in Flutter: Permissions and Updates Simplified."
-version: 0.0.1
-homepage: null
+version: 0.0.2
+homepage: https://github.com/AymanMohamed2/location_service_with_permission.git
 
 environment:
   sdk: '>=3.4.3 <4.0.0'
